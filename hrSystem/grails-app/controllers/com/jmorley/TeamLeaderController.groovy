@@ -2,5 +2,5 @@ package com.jmorley
 
 class TeamLeaderController {
 
-    def scaffold = TeamLeader { }
+    def scaffold = TeamLeader
 }

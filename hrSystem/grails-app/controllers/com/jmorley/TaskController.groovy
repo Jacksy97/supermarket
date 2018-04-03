@@ -2,5 +2,5 @@ package com.jmorley
 
 class TaskController {
 
-    def scaffold = Task { }
+    def scaffold = Task
 }

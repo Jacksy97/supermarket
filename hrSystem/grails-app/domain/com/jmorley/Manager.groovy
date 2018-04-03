@@ -6,9 +6,9 @@ String fullName
 String userName
 String password
 String managerEmail
-String office
+int office
 String department
-static hasMany = [teamleader:TeamLeader, employee:Employee]
+static hasMany = [teamLeaders:TeamLeader, employees:Employee]
 
     static constraints = {
 

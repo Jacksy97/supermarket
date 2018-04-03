@@ -9,8 +9,8 @@ String department
 String timeRequired
 String description
 String taskCompleted
-static belongsTo = [shifts:Shift]
-static hasMany = [shifts:Shift, employees:Employees, teams:Team]
+static belongsTo = [Shift]
+static hasMany = [Shift, Employee, Team]
 
     static constraints = {
 

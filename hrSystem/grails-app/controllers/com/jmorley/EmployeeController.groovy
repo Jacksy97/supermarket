@@ -2,5 +2,5 @@ package com.jmorley
 
 class EmployeeController {
 
-    def scaffold = Employee { }
+    def scaffold = Employee
 }

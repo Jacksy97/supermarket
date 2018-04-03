@@ -7,7 +7,7 @@ int numberOfEmployees
 String sectionName
 String description
 static belongsTo = [employees:Employee, tasks:Task, shifts:Shift]
-static hasOne = [teamleader:TeamLeader]
+static hasOne = [teamLeaders:TeamLeader]
 static hasMany = [tasks:Task, shifts:Shift, employees:Employee, teams:Team]
 
     static constraints = {

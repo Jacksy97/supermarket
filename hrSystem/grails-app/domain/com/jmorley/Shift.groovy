@@ -6,7 +6,7 @@ String timeOfDay
 String dayOfWeek
 int numberOfHours
 String startingTime
-static hasMany = [teams:Team, employees:Employee, tasks:Tasks]
+static hasMany = [teams:Team, employees:Employee, tasks:Task]
 
     static constraints = {
 
